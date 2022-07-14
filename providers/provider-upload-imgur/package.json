@@ -1,0 +1,45 @@
+{
+  "name": "@strapi/provider-imgur",
+  "version": "1.0.0",
+  "description": "Imgur provider for strapi upload",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "homepage": "https://strapi.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Felipe Henrique Ferraresi",
+    "email": "felipehferraresi@outlook.com",
+    "url": "felipeferraresi.dev"
+  },
+  "maintainers": [
+    {
+      "name": "Felipe Henrique Ferraresi",
+      "email": "felipehferraresi@outlook.com",
+      "url": "felipeferraresi.dev"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "2"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "376ff3133c13f6eb10d0c90f4b5eb701592aff97"
+}
